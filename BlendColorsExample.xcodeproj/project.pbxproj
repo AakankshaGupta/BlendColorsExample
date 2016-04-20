@@ -15,6 +15,17 @@
 		0959F36F1CAE2EC2002122C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0959F36D1CAE2EC2002122C4 /* LaunchScreen.storyboard */; };
 		0959F37A1CAE2EC2002122C4 /* BlendColorsExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0959F3791CAE2EC2002122C4 /* BlendColorsExampleTests.swift */; };
 		0959F3851CAE2EC3002122C4 /* BlendColorsExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0959F3841CAE2EC3002122C4 /* BlendColorsExampleUITests.swift */; };
+		0959F3941CAE3061002122C4 /* foggyImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0959F3921CAE3061002122C4 /* foggyImage.jpg */; };
+		0959F3951CAE3061002122C4 /* foggyImage1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0959F3931CAE3061002122C4 /* foggyImage1.jpg */; };
+		0959F39C1CAE32B3002122C4 /* img_splash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0959F3961CAE32B3002122C4 /* img_splash.jpg */; };
+		0959F39D1CAE32B3002122C4 /* img_splash@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0959F3971CAE32B3002122C4 /* img_splash@2x.jpg */; };
+		0959F39E1CAE32B3002122C4 /* img_splash@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0959F3981CAE32B3002122C4 /* img_splash@3x.jpg */; };
+		0959F39F1CAE32B3002122C4 /* logo_splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 0959F3991CAE32B3002122C4 /* logo_splash.png */; };
+		0959F3A01CAE32B3002122C4 /* logo_splash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0959F39A1CAE32B3002122C4 /* logo_splash@2x.png */; };
+		0959F3A11CAE32B3002122C4 /* logo_splash@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0959F39B1CAE32B3002122C4 /* logo_splash@3x.png */; };
+		095BC8041CB79C6000248B18 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095BC8031CB79C6000248B18 /* GradientView.swift */; };
+		09A55A791CB9216D00221341 /* LabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A55A781CB9216D00221341 /* LabelExtension.swift */; };
+		09A55A7B1CB9228400221341 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A55A7A1CB9228400221341 /* UIButtonExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +47,11 @@
 
 /* Begin PBXFileReference section */
 		0959F35E1CAE2EC2002122C4 /* BlendColorsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlendColorsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0959F3611CAE2EC2002122C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0959F3631CAE2EC2002122C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0959F3611CAE2EC2002122C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = BlendColorsExample/AppDelegate.swift; sourceTree = "<group>"; };
+		0959F3631CAE2EC2002122C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = BlendColorsExample/ViewController.swift; sourceTree = "<group>"; };
 		0959F3661CAE2EC2002122C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0959F3691CAE2EC2002122C4 /* BlendColorsExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BlendColorsExample.xcdatamodel; sourceTree = "<group>"; };
-		0959F36B1CAE2EC2002122C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0959F36B1CAE2EC2002122C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = BlendColorsExample/Assets.xcassets; sourceTree = "<group>"; };
 		0959F36E1CAE2EC2002122C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0959F3701CAE2EC2002122C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0959F3751CAE2EC2002122C4 /* BlendColorsExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlendColorsExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +60,17 @@
 		0959F3801CAE2EC3002122C4 /* BlendColorsExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlendColorsExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0959F3841CAE2EC3002122C4 /* BlendColorsExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendColorsExampleUITests.swift; sourceTree = "<group>"; };
 		0959F3861CAE2EC3002122C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0959F3921CAE3061002122C4 /* foggyImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = foggyImage.jpg; path = BlendColorsExample/foggyImage.jpg; sourceTree = "<group>"; };
+		0959F3931CAE3061002122C4 /* foggyImage1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = foggyImage1.jpg; path = BlendColorsExample/foggyImage1.jpg; sourceTree = "<group>"; };
+		0959F3961CAE32B3002122C4 /* img_splash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_splash.jpg; path = BlendColorsExample/img_splash.jpg; sourceTree = "<group>"; };
+		0959F3971CAE32B3002122C4 /* img_splash@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "img_splash@2x.jpg"; path = "BlendColorsExample/img_splash@2x.jpg"; sourceTree = "<group>"; };
+		0959F3981CAE32B3002122C4 /* img_splash@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "img_splash@3x.jpg"; path = "BlendColorsExample/img_splash@3x.jpg"; sourceTree = "<group>"; };
+		0959F3991CAE32B3002122C4 /* logo_splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_splash.png; path = BlendColorsExample/logo_splash.png; sourceTree = "<group>"; };
+		0959F39A1CAE32B3002122C4 /* logo_splash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo_splash@2x.png"; path = "BlendColorsExample/logo_splash@2x.png"; sourceTree = "<group>"; };
+		0959F39B1CAE32B3002122C4 /* logo_splash@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo_splash@3x.png"; path = "BlendColorsExample/logo_splash@3x.png"; sourceTree = "<group>"; };
+		095BC8031CB79C6000248B18 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		09A55A781CB9216D00221341 /* LabelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelExtension.swift; sourceTree = "<group>"; };
+		09A55A7A1CB9228400221341 /* UIButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +101,10 @@
 		0959F3551CAE2EC2002122C4 = {
 			isa = PBXGroup;
 			children = (
+				09F90B551CB67929009C8CA3 /* Screens */,
+				09F90B541CB6791D009C8CA3 /* ViewController */,
+				09F90B531CB67911009C8CA3 /* App Delegate */,
+				09F90B521CB678F9009C8CA3 /* Assets */,
 				0959F3601CAE2EC2002122C4 /* BlendColorsExample */,
 				0959F3781CAE2EC2002122C4 /* BlendColorsExampleTests */,
 				0959F3831CAE2EC3002122C4 /* BlendColorsExampleUITests */,
@@ -99,11 +125,6 @@
 		0959F3601CAE2EC2002122C4 /* BlendColorsExample */ = {
 			isa = PBXGroup;
 			children = (
-				0959F3611CAE2EC2002122C4 /* AppDelegate.swift */,
-				0959F3631CAE2EC2002122C4 /* ViewController.swift */,
-				0959F3651CAE2EC2002122C4 /* Main.storyboard */,
-				0959F36B1CAE2EC2002122C4 /* Assets.xcassets */,
-				0959F36D1CAE2EC2002122C4 /* LaunchScreen.storyboard */,
 				0959F3701CAE2EC2002122C4 /* Info.plist */,
 				0959F3681CAE2EC2002122C4 /* BlendColorsExample.xcdatamodeld */,
 			);
@@ -126,6 +147,50 @@
 				0959F3861CAE2EC3002122C4 /* Info.plist */,
 			);
 			path = BlendColorsExampleUITests;
+			sourceTree = "<group>";
+		};
+		09F90B521CB678F9009C8CA3 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				0959F36B1CAE2EC2002122C4 /* Assets.xcassets */,
+				0959F3961CAE32B3002122C4 /* img_splash.jpg */,
+				0959F3971CAE32B3002122C4 /* img_splash@2x.jpg */,
+				0959F3981CAE32B3002122C4 /* img_splash@3x.jpg */,
+				0959F3991CAE32B3002122C4 /* logo_splash.png */,
+				0959F39A1CAE32B3002122C4 /* logo_splash@2x.png */,
+				0959F39B1CAE32B3002122C4 /* logo_splash@3x.png */,
+				0959F3921CAE3061002122C4 /* foggyImage.jpg */,
+				0959F3931CAE3061002122C4 /* foggyImage1.jpg */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		09F90B531CB67911009C8CA3 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				0959F3611CAE2EC2002122C4 /* AppDelegate.swift */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		09F90B541CB6791D009C8CA3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				095BC8031CB79C6000248B18 /* GradientView.swift */,
+				0959F3631CAE2EC2002122C4 /* ViewController.swift */,
+				09A55A781CB9216D00221341 /* LabelExtension.swift */,
+				09A55A7A1CB9228400221341 /* UIButtonExtension.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		09F90B551CB67929009C8CA3 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				0959F3651CAE2EC2002122C4 /* Main.storyboard */,
+				0959F36D1CAE2EC2002122C4 /* LaunchScreen.storyboard */,
+			);
+			name = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +297,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0959F39F1CAE32B3002122C4 /* logo_splash.png in Resources */,
+				0959F3941CAE3061002122C4 /* foggyImage.jpg in Resources */,
+				0959F39D1CAE32B3002122C4 /* img_splash@2x.jpg in Resources */,
+				0959F39E1CAE32B3002122C4 /* img_splash@3x.jpg in Resources */,
+				0959F3A11CAE32B3002122C4 /* logo_splash@3x.png in Resources */,
 				0959F36F1CAE2EC2002122C4 /* LaunchScreen.storyboard in Resources */,
+				0959F3951CAE3061002122C4 /* foggyImage1.jpg in Resources */,
+				0959F3A01CAE32B3002122C4 /* logo_splash@2x.png in Resources */,
 				0959F36C1CAE2EC2002122C4 /* Assets.xcassets in Resources */,
+				0959F39C1CAE32B3002122C4 /* img_splash.jpg in Resources */,
 				0959F3671CAE2EC2002122C4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,8 +333,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0959F3641CAE2EC2002122C4 /* ViewController.swift in Sources */,
+				09A55A791CB9216D00221341 /* LabelExtension.swift in Sources */,
 				0959F36A1CAE2EC2002122C4 /* BlendColorsExample.xcdatamodeld in Sources */,
+				095BC8041CB79C6000248B18 /* GradientView.swift in Sources */,
 				0959F3621CAE2EC2002122C4 /* AppDelegate.swift in Sources */,
+				09A55A7B1CB9228400221341 /* UIButtonExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +379,7 @@
 				0959F3661CAE2EC2002122C4 /* Base */,
 			);
 			name = Main.storyboard;
+			path = BlendColorsExample;
 			sourceTree = "<group>";
 		};
 		0959F36D1CAE2EC2002122C4 /* LaunchScreen.storyboard */ = {
@@ -311,6 +388,7 @@
 				0959F36E1CAE2EC2002122C4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = BlendColorsExample;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -488,6 +566,7 @@
 				0959F38B1CAE2EC3002122C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0959F38C1CAE2EC3002122C4 /* Build configuration list for PBXNativeTarget "BlendColorsExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +575,7 @@
 				0959F38E1CAE2EC3002122C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0959F38F1CAE2EC3002122C4 /* Build configuration list for PBXNativeTarget "BlendColorsExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +584,7 @@
 				0959F3911CAE2EC3002122C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

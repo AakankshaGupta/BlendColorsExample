@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BlendColorsExample" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,84 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_splash.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="efd-1V-U9H">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="networx" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JNd-7e-WI6">
+                                <rect key="frame" x="245" y="224" width="111" height="33"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="27"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6SA-mt-HWh">
+                                <rect key="frame" x="272" y="151" width="56" height="56"/>
+                                <state key="normal" image="logo_splash.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H14-0L-hfo">
+                                <rect key="frame" x="271" y="498" width="60" height="33"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="yLb-70-FWs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="SIGNUP">
+                                    <color key="titleColor" red="0.83529411760000005" green="0.98823529409999999" blue="0.99215686270000003" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By signing up you agree to the terms &amp; conditions and privacy policy" textAlignment="center" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zoJ-94-b5T">
+                                <rect key="frame" x="125" y="567" width="351" height="13"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
+                                <color key="textColor" red="0.83529411760000005" green="0.98823529409999999" blue="0.99215686270000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </label>
+                            <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XoE-lK-u0Y">
+                                <rect key="frame" x="40" y="428" width="520" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Yh2-3V-tAY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <state key="normal" title="LOGIN">
+                                    <color key="titleColor" red="0.83529411760000005" green="0.98823529409999999" blue="0.99215686270000003" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="H14-0L-hfo" firstAttribute="centerX" secondItem="zoJ-94-b5T" secondAttribute="centerX" id="6Vn-qy-3ST"/>
+                            <constraint firstItem="XoE-lK-u0Y" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="OKy-FJ-LTM"/>
+                            <constraint firstItem="efd-1V-U9H" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Tfw-5N-aB1"/>
+                            <constraint firstItem="JNd-7e-WI6" firstAttribute="centerX" secondItem="efd-1V-U9H" secondAttribute="centerX" id="WEC-JI-5Mg"/>
+                            <constraint firstItem="JNd-7e-WI6" firstAttribute="centerY" secondItem="efd-1V-U9H" secondAttribute="centerY" constant="-70" id="Wd8-lZ-hhN"/>
+                            <constraint firstItem="zoJ-94-b5T" firstAttribute="centerX" secondItem="JNd-7e-WI6" secondAttribute="centerX" id="Wsm-Yo-EGw"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="efd-1V-U9H" secondAttribute="bottom" id="ayN-BQ-mX2"/>
+                            <constraint firstItem="6SA-mt-HWh" firstAttribute="centerX" secondItem="JNd-7e-WI6" secondAttribute="centerX" id="fON-ZV-s7S"/>
+                            <constraint firstItem="zoJ-94-b5T" firstAttribute="top" secondItem="H14-0L-hfo" secondAttribute="bottom" constant="36" id="lAD-kf-dLx"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="zoJ-94-b5T" secondAttribute="bottom" constant="20" id="mdn-gy-ivW"/>
+                            <constraint firstAttribute="trailing" secondItem="efd-1V-U9H" secondAttribute="trailing" id="r1V-pE-EKK"/>
+                            <constraint firstAttribute="trailing" secondItem="XoE-lK-u0Y" secondAttribute="trailing" constant="40" id="tHI-C3-8B7"/>
+                            <constraint firstItem="JNd-7e-WI6" firstAttribute="top" secondItem="6SA-mt-HWh" secondAttribute="bottom" constant="17" id="tjm-7E-wSS"/>
+                            <constraint firstItem="efd-1V-U9H" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ul1-V1-jkU"/>
+                            <constraint firstItem="H14-0L-hfo" firstAttribute="top" secondItem="XoE-lK-u0Y" secondAttribute="bottom" constant="20" id="x8o-9D-M0A"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="backgroundImage" destination="efd-1V-U9H" id="Yew-E5-DM4"/>
+                        <outlet property="conditionsLabel" destination="zoJ-94-b5T" id="fb3-dj-qZX"/>
+                        <outlet property="loginBtn" destination="XoE-lK-u0Y" id="nF2-d9-IXi"/>
+                        <outlet property="signUpBtn" destination="H14-0L-hfo" id="XU1-58-Pua"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="img_splash.jpg" width="360" height="640"/>
+        <image name="logo_splash.png" width="56" height="56"/>
+    </resources>
 </document>
