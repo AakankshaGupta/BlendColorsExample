@@ -26,7 +26,8 @@ class GradientView: UIButton {
         
         // 3
         let colorSpace = CGColorSpaceCreateDeviceRGB()
-        
+    //    let mySpace = CGRectMakeSpace()
+        //hello world.....
         // 4
        // let startColor = UIColor(red: 74/255, green: 119/255, blue: 200/255, alpha: 0.1)
         let startColor =  UIColor(red: 71/255, green: 115/255, blue: 194/255, alpha: 0.25)
